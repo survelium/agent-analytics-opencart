@@ -64,7 +64,8 @@ jobs:
       - uses: actions/checkout@v7
       - uses: shivammathur/setup-php@v2
         with:
-          php-version: '8.1'
+          # Dev dependencies (Pest) do not resolve on 8.1; the zip itself only needs 8.1.
+          php-version: '8.2'
           extensions: zip
           coverage: none
       - name: Build zip
