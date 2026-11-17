@@ -24,12 +24,6 @@
         "laravel/pint": "^1.0",
         "pestphp/pest": "^2.0|^3.0|^4.0"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/survelium/agent-analytics-php"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Survelium\\AgentAnalyticsOpenCart\\": "src"
@@ -44,7 +38,5 @@
         "allow-plugins": {
             "pestphp/pest-plugin": true
         }
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
